@@ -3,10 +3,9 @@
 <TODO: complete this with an overview of your project>
 
 ## Project Plan
-<TODO: Project Plan
 
-* A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
+* [Trello Kanban Task Board](https://trello.com/invite/b/hVOAy40q/767e94ece0bc05aed4826aa9724596cf/building-azure-ci-cd-pipeline)
+* [Final Project Plan](https://docs.google.com/spreadsheets/d/14MsfybRl9IBQCXpz52GzsAPmwmYQJjL2XewXLKN9vyg/edit?usp=sharing)
 
 ## Instructions
 
@@ -18,10 +17,15 @@
 * Project running on Azure App Service
 
 * Project cloned into Azure Cloud Shell
+![Cloned Project - Azure Cloud Shell](./images/3_Cloned_Project_AzureCloudShell.png)
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
+![Make All Passing Test](./images/3.3_Local_Test.png)
+
 * Output of a test run
+
+![Passing Tests - Github Actions](./images/4_Github_Actions_Build.png)
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
@@ -38,7 +42,10 @@ Port: 443
 
 * Output of streamed log files from deployed application
 
-> 
+![Output Of Streamed Logs](./images/Logs1.png)
+
+![Output Of Streamed Logs After Pipeline Deployment](./images/Logs2.png)
+>
 
 ## Enhancements
 
