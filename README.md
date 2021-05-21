@@ -1,6 +1,6 @@
 # Overview
 
-<TODO: complete this with an overview of your project>
+This project builds, tests, and operationalizes an ML Flask App that makes predictions through a CI/CD pipeline using Azure Devops.
 
 ## Project Plan
 
@@ -9,9 +9,7 @@
 
 ## Instructions
 
-<TODO:  
-
-* Architectural Diagram >
+* Architectural Diagram
 
 ![CI/CD Architectural Diagram](./images/ArchitecturalDiagram.drawio.png)
 
