@@ -36,7 +36,7 @@
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.  
 
-![Prediction](./images/Predication.png)
+![Prediction](./images/Prediction.png)
 
 * Output of streamed log files from deployed application
 
