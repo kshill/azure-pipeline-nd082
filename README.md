@@ -123,21 +123,45 @@ The following image displays the passing tests after running the `make all` comm
 
 ![Running Azure App Server - Azure Pipeline](./images/AzureAppService.png)
 
-### Using ML Flask App for Predictions
-* Successful prediction from deployed flask app in Azure Cloud Shell.  
+### Using ML Flask App Predictions
+
+1. Open the Azure Cloud Shell.
+1. Edit the **make_predict_azure_app.sh** file with the Cloud Shell visual studio editor.
+1. Modify the url on line 28 by replacing the URL with the url provided by Azure WebApps.
+1. Save the file and exit the editor.
+1. At the Cloud Shell Prompt execute the following command:
+
+```bash
+./make_predict_azure_app.sh
+```
+
+6. The command will return back a prediction. The following image shows wthe output of the command:
 
 ![Prediction](./images/Prediction.png)
+
+### Azure WebApp Logs
+
+1. To view the streamed Azure Web App Logs execute the following command:
+
+```bash
+az webapp log tail --resource-group <Resource Group Name> --name <Azure WebApp Name>
+```
+
+2. The following images show the results of both streaming the webapp logs and going to the Azure logs directory for Azure Web Apps:
+
+![Azure WebApp Streamed Logs](./images/WebAppStreamedLog.png)
 
 * Output of streamed log files from deployed application
 
 ![Output Of Streamed Logs](./images/Logs1.png)
 
+* Output of streamed log files after pipeline deployment
+
 ![Output Of Streamed Logs After Pipeline Deployment](./images/Logs2.png)
->
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+The enhancement I would make is adding a testing step to the **Deploy** stage in the pipeline to ensure that the API was functioning properly after it was deployed. This would tell us that the API was ready to accept requests.
 
 ## Demo 
 
