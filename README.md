@@ -17,7 +17,7 @@ This project builds, tests, and operationalizes an ML Flask App that makes predi
 
 * Project running on Azure App Service
 
-* Project cloned into Azure Cloud Shell
+* Github project cloned in Azure Cloud Shell
 ![Cloned Project - Azure Cloud Shell](./images/3_Cloned_Project_AzureCloudShell.png)
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
