@@ -1,6 +1,6 @@
 # Overview
 
-This project uses Azure CI/CD pipeline that builds, tests, and operationalizes an ML Flask App that makes predictions..
+This project uses Azure CI/CD pipeline that builds, tests, and operationalizes an ML Flask App that makes predictions.
 
 ## Project Plan
 
