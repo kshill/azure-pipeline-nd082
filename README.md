@@ -165,9 +165,20 @@ az webapp log tail --resource-group <Resource Group Name> --name <Azure WebApp N
 
 ![Output Of Streamed Logs After Pipeline Deployment](./images/Logs2.png)
 
+### Locust Performance Tests
+
+**Locust Script Running**
+![Locust Running](./images/locust_running.png)
+
+**Locust Statistics**
+![Locust Stats](./images/locust_stats.png)
+
+**Locust Graph**
+![Locust Graph](./images/locust_loadtest.png)
+
 ## Enhancements
 
-The enhancement I would make is adding a testing step to the **Deploy** stage in the pipeline to ensure that the API was functioning properly after it was deployed. This would tell us that the API was ready to accept requests.
+The enhancement I would make is adding both an alive and load testing step to the **Deploy** stage in the pipeline to ensure that the API was functioning properly after it was deployed. The alive test would tell us that the API was ready to accept requests. The load test would help us to determine if performance optimizations were needed and if we needed to scale up the app service.
 
 ## Demo 
 
