@@ -2,7 +2,7 @@
 
 # Overview
 
-This project uses Azure CI/CD pipeline that builds, tests, and operationalizes an ML Flask App that makes predictions.
+This project will demonstrate the use of an Azure CI/CD pipeline to build, test, and operationalize an ML API that makes housing price predictions in Boston based on a set of criteria. The API is built using Python utilizing the Flask web framework. The project utilizes Azure Web Apps to host the ML price predictions API, Github Actions for continuous integration (CI) and Azure Pipelines for continuous delivery (CD).
 
 ## Project Plan
 
@@ -124,6 +124,10 @@ The following image displays the passing tests after running the `make all` comm
 5. Upon successful execution of the pipeline you will see that the pipeline automatically updates the Azure Web App with the code from the repository as shown in the image below:
 
 ![Running Azure App Server - Azure Pipeline](./images/AzureAppService.png)
+
+6. From the Azure portal you can also see that the Azure Web App is in a running state:
+
+![Running Azure App Server - Azure Pipeline](./images/azureportal_azurewebapps.png)
 
 ### Using ML Flask App Predictions
 
