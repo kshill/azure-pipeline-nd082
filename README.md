@@ -1,3 +1,5 @@
+[![Python application test with Github Actions](https://github.com/kshill/azure-pipeline-nd082/actions/workflows/main.yml/badge.svg)](https://github.com/kshill/azure-pipeline-nd082/actions/workflows/main.yml)
+
 # Overview
 
 This project uses Azure CI/CD pipeline that builds, tests, and operationalizes an ML Flask App that makes predictions.
@@ -166,3 +168,4 @@ The enhancement I would make is adding a testing step to the **Deploy** stage in
 ## Demo 
 
 * [Azure Devops CI/CD Pipeline - YouTube](https://youtu.be/daIh0Qyh5rM)
+
